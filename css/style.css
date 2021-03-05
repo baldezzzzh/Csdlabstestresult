@@ -401,6 +401,8 @@ body {
   max-width: 680px;
   width: 100%;
   padding: 40px 40px 0px 40px;
+  background: #F4F4F4;
+  border-radius: 6px;
 }
 
 .stay__right-text {
