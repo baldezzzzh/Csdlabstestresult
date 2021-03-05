@@ -52,7 +52,7 @@
       opacity: 0.5;
       font-weight: 500;
     }
-    
+
   }
 
   &__btn {
@@ -79,6 +79,8 @@
     max-width: 680px;
     width: 100%;
     padding: 40px 40px 0px 40px;
+    background: #F4F4F4;
+    border-radius: 6px;
   }
 
   &__right-text {
@@ -95,6 +97,7 @@
     padding-top: 24px;
     max-height: 280px;
     overflow: hidden;
+
     div {
       padding: 15px 22px;
       width: 100%;
@@ -106,7 +109,8 @@
       transition: all .5s;
       border-radius: 6px;
       cursor: pointer;
-      &:hover{
+
+      &:hover {
         background: #E2E3EB;
 
       }
@@ -126,7 +130,8 @@
           right: 22px;
         }
       }
-      &:last-child{
+
+      &:last-child {
         margin-bottom: 0px;
       }
     }
