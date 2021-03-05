@@ -16,9 +16,10 @@ function showArr(domElem, arr) {
 let d1 = [];
 let i1 = document.querySelector('.stay__input');
 function f1() {
-    e.preventDefault();
+    
     d1.unshift(i1.value);
     showArr('.stay__emails', d1);
+    return false;
 }
 
 document.querySelector('.stay__btn').onclick = f1;
